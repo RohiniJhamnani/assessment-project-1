@@ -1,0 +1,248 @@
+.image{
+    display:flex;
+  /*  background-image: url("astronomy-3187445_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px); */
+        height:400px;
+        margin:0;
+        padding-left:10px;
+        padding-top:10px;
+        opacity:0.9;
+        
+        color:white;
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}   
+.main{
+    background-image: url("../images/astronomy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    font-size: larger;
+    width:1300;
+    height:2000;
+    
+}
+.heading{
+    order:1;
+    flex:2;
+    padding-left:50px;
+    padding-top: 70px;
+    text-align: center;
+    
+    
+}
+#image{
+    width:600px;
+    height:300px;
+    padding:20px;
+}
+.side-image{
+    flex:3;
+    order:2;
+    padding-right:70px;
+    padding-top:20px;
+    
+    
+    
+}
+.line{
+    text-align: center;
+    color:white;
+    width:900px;
+
+}
+
+button{
+    padding:15px;
+    font-size: large;
+    border-radius:20px;
+    border-style: solid;
+    text-decoration: none;
+    color:black;
+}
+
+button a{
+    text-decoration:none;
+    color:black;
+    
+
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #5f30b6;
+}
+li{
+    
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding:24px 26px;
+    
+    text-decoration: none;
+    color:white;
+     
+    
+}
+li a:hover{
+    background-color: rgb(75, 164, 236);
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    
+}
+
+.bar{
+    
+    color:white;
+    height:70px;
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-size: larger;
+    
+}
+.maindiv{
+    margin:0;
+    padding:0;
+}
+.firstfour {
+    
+    display:flex;
+    padding:10px;
+    text-align: center;
+    color:white;
+}
+
+.lastthree{
+    display:flex;
+    padding:10px;
+    text-align: center;
+    color:white;
+}
+.moon  {
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0;
+    margin:5px;  
+    order:1;
+    width: 250px;
+    height:600px;
+    padding:2px;
+}
+.sun{
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:2;
+    width:250px;
+    height:600px;
+    padding:2px;
+
+}
+.jupiter{
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:3;
+    width:250px;
+    height:600px;
+    padding:2px;
+
+}
+.mars{
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:3;
+    width:230px;
+    height:600px;
+    padding:2px; 
+    order:4;}
+.saturn{
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:1;
+    width:230px;
+    height:600px;
+    padding:2px;
+
+}
+
+.sidebar{
+    backdrop-filter: blur(5px);
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin:20px; 
+    order:5;
+    width:350px;
+    height:600px;
+    padding:5px;
+}
+#input{
+    height:20px;
+    width:40x;
+    padding:10px;
+    font-size: medium;
+
+}
+#submit{
+    width:90px;
+    padding:10px;
+    font-size: medium;
+}
+
+
+.venus
+{
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:1;
+    width:230px;
+    height:600px;
+    padding:2px;
+
+}
+.mercury{
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:2;
+    width:230px;
+    height:600px;  
+    padding:2px;
+
+}
+.rahu{
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0px;
+    margin:5px; 
+    order:4;
+    width:220px;
+    height:650px;
+    padding:2px;
+}

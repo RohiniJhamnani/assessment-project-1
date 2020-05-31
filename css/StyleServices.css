@@ -1,0 +1,56 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-image: url("../images/pink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(160, 56, 160);
+}.heading{
+    margin-top:5px;
+    padding:5px;
+    text-align: center;
+    background-color: rgb(183, 46, 201);
+    color: white;
+    opacity:0.8;
+
+}
+.container{
+    display:flex;
+    
+}
+.form{
+    text-align: center;
+    margin-left:300px;
+    font-size: larger;
+    margin-right:300px;
+    margin-top:20px;
+    padding-left:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    
+    
+    
+}
+table{
+    font-size: large;
+}
+.career{
+    margin:30px;
+
+}
+.relationship{
+    margin:30px;
+
+}
+.marriage{ margin:30px;}
+.education{ margin:30px;}
+button{ 
+    width:100px;
+    height:60px;
+    background-color: turquoise;
+    color:red;
+    font-size: medium;
+}
